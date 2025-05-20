@@ -1,4 +1,4 @@
-module github.com/cc-jj/budgetapp
+module budget
 
 go 1.24.3
 
