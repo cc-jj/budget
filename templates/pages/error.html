@@ -1,0 +1,10 @@
+{{ define "title" }}Error {{ .StatusCode }} | Budget App{{ end }} {{ define
+"content" }}
+<section class="error-page">
+  <div class="container">
+    <h1>Error {{ .StatusCode }}</h1>
+    <p>{{ .ErrorMessage }}</p>
+    <a href="/" class="btn">Return to Homepage</a>
+  </div>
+</section>
+{{ end }}
