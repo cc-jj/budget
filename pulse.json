@@ -3,5 +3,6 @@
   "binary_name": "bin/server",
   "watch_dir": ".",
   "watch_exts": [".go", ".mod", ".sum", ".html", ".css"],
-  "watch_interval": "1s"
+  "watch_interval": "1s",
+  "max_watchers": 100
 }
